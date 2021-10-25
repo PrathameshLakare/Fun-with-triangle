@@ -1,10 +1,47 @@
-:root{
+/* :root{
     --off-white: #ccd1db;
     --dark-gray: #6B7280;
-}
+} */
 nav{
-    background-color: black;
-    color: white;
+    background-color: #ccd1db;
     padding: 1rem;
     border-bottom-left-radius: 1rem;
+}
+h1{
+    color: rgb(218, 129, 129);
+    text-align: center;
+    margin: 2rem;
+}
+input,label{
+    width: 100%;
+    display: block;
+}
+label{
+    color: white;
+}
+input{
+    margin-bottom: 0.5rem;
+}
+#is-triangle-btn,#submit-answer-btn,#hypotenuse-btn,#area-of-triangle-btn{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    color: rgb(218, 129, 129);
+    background-color: transparent;
+    border-color: rgb(124, 155, 40);
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+body{
+    margin: auto;
+    width: 50%;
+    background-color:  rgb(11, 11, 12);
+}
+#output{
+    color: white;
+}
+.question-container{
+    margin: 1.5rem;
 }
