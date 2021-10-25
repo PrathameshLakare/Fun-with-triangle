@@ -1,0 +1,10 @@
+:root{
+    --off-white: #ccd1db;
+    --dark-gray: #6B7280;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
